@@ -22,7 +22,8 @@ class ByteClassLoader extends ClassLoader {
         } catch (ClassNotFoundException e) {
             return null
         } catch (IOException e) {
-            throw new EbeanEnhancementException("Unable to load referenced class $className", e)
+//            throw new EbeanEnhancementException("Unable to load referenced class $className", e)
+            return null
         }
     }
 

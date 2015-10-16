@@ -10,7 +10,7 @@ import org.gradle.api.tasks.TaskOutputs
  * Implementation of Gradle plugin for Ebean enhancement task
  */
 class EbeanPlugin implements Plugin<Project> {
-    private static def supportedCompilerTasks = ['compileJava', 'compileGroovy', 'compileScala']
+    private static def supportedCompilerTasks = ['compileJava', 'compileGroovy', 'compileScala', 'compileKotlin']
 
     void apply(Project project) {
         def params = project.extensions.create('ebean', EbeanPluginParams)

@@ -31,7 +31,8 @@ class GradleClassBytesReader implements ClassBytesReader {
         try {
             file.withInputStream { classFileStream -> classFileStream.read(buffer) }
         } catch (IOException e) {
-            throw new EbeanEnhancementException("Failed to load class '$className' at base path '$basePath'", e);
+//            throw new EbeanEnhancementException("Failed to load class '$className' at base path '$basePath'", e);
+            return null
         }
 
         buffer
