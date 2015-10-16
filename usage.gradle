@@ -3,7 +3,7 @@ buildscript {
         mavenLocal()
     }
     dependencies {
-        classpath 'com.khomich:gradle-ebean-enhancer:1.0.5(4.1.5)-SNAPSHOT'
+        classpath 'com.khomich:gradle-ebean-enhancer:1.0.5(4.7.1)-SNAPSHOT'
     }
 }
 
