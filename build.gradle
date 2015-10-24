@@ -3,7 +3,7 @@ apply plugin: 'maven-publish'
 apply plugin: 'maven'
 
 group = 'com.khomich'
-version = '1.0.5(4.7.1)-SNAPSHOT'
+version = '1.0.5(4.7.1)'
 
 repositories {
     mavenCentral()
